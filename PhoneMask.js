@@ -28,6 +28,11 @@ class PhoneMask {
     }
   }
 
+  /**
+   * main func
+   * @param data
+   * @param target
+   */
   setValue({data, target}) {
     this.result = ''
     let value = target.value
