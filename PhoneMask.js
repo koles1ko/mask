@@ -1,3 +1,6 @@
+/**
+ * class for tesqqq
+ */
 class PhoneMask {
   mask
   result = ''
