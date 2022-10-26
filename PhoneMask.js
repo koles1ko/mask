@@ -31,7 +31,6 @@ class PhoneMask {
   setValue({data, target}) {
     this.result = ''
     let value = target.value
-    // let caretPosition
     for (let i in this.mask) {
       if (this.mask[i] === 'x')
         if (value[i] && value[i].match(/\d/)) this.result += value[i]
